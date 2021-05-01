@@ -60,7 +60,7 @@ elif sidebar_select_ops=='World map':
                          hover_name="country", size=op_size,
                          hover_data={'suicide_sum': True,"suicide_100k_pop": ":.2f",
                              "population": True, "gdp_per_capita": True, "iso_alpha": False},
-                         projection="orthographic"
+                         #projection="orthographic"
                          )
     fig.update_layout( width=800, height=800, hoverlabel_align = 'right' )
     st.plotly_chart(fig, use_container_width=True)
